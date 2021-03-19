@@ -19,7 +19,9 @@ function RoutesConfig() {
                             <Route exact path="/" component={Home} />
                             <Route path="/login" component={Login} />
                             <Route path="/signup" component={Signup} />
-                            <Route path="/forgetpw" component={ForgetPw} /> </div> : null}
+                            <Route path="/forgetpw" component={ForgetPw} /> 
+                            
+                            </div> : null}
 
                     {globalState.loginStatus === true ?
                         <Route exact path="/dashboard" component={Dashboard} /> :

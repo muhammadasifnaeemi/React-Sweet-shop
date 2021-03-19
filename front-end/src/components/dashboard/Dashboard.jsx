@@ -41,7 +41,7 @@ function Dashboard(prpos) {
     return (
         <div>
             <button onClick={logout}>Logout</button>
-            <h1>Dashboard</h1>
+            <h1 style= {{alignItems:"center"}}>Dashboard</h1>
             {globalState.user ?
                 <div>
                     <h2>{globalState.user.name}</h2>

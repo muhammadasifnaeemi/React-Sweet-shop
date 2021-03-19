@@ -16,9 +16,9 @@ function Navbar() {
                         <li className="nav-item active">
                             <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                         </li>
-                        <li className="nav-item active">
+                        {/* <li className="nav-item active">
                             <Link className="nav-link" to="/dashboard">Dashboard <span className="sr-only">(current)</span></Link>
-                        </li>
+                        </li> */}
                     </ul>
                     <Link className="btn btn-outline-success " to="/login">Login<span className="sr-only">(current)</span></Link>
 

@@ -33,6 +33,7 @@ function Cart() {
                                         </div>
                                         <div className="col-md-4">
                                             <span>Price: {value.price}</span>
+                                            
                                         </div>
                                     </div>
                                 </div>

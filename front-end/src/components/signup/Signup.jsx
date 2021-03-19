@@ -62,7 +62,7 @@ function Signup() {
                         <div className='col-md-5 form'>
                             {change ? <div>
                                 <h1 className="text-center">Signup</h1>
-                                <form onSubmit={signup}>
+                                <form onSubmit={signup} className= "">
                                     <div className="form-col">
                                         <div className="col">
                                             <input type="text" className="form-control"
