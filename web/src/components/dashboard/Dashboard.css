@@ -1,0 +1,12 @@
+.cart{
+    box-shadow: 0 0 10px grey;
+    padding: 10px;
+}
+.cart img {
+    width: 100%;
+}
+.bucket{
+    box-shadow: 0 0 10px grey;
+    padding: 10px;
+    height: 300px;
+}
